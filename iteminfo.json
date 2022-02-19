@@ -1,0 +1,30 @@
+[
+  {"name": "owner_medal", "short": "omedal", "dname": "Owner Medal", "desc": "Medal held by the owners of the DoggoSakura (Black and Error)", "sellable": false, "sell_cost": null, "buy_cost": null, "emoji": "<:owner_medal:930330202217779240>"},
+
+  {"name": "alpha_tester_medal", "short": "amedal", "dname": "Alpha Tester Medal", "desc": "Medal held by the Alpha Testers.", "sellable": false, "sell_cost": null, "buy_cost": null, "emoji": "<:tester_medal:930330217610883082> "},
+
+  {"name": "contributor_trophy", "short": "ctrophy", "dname": "Contributor Trophy", "desc": "If you have this trophy, thanks for supporting us in anyway you did", "sellable": false, "sell_cost": null, "buy_cost": null, "emoji": "<:contributar_trophy:930330234413269063> "},
+
+  {"name": "smol_beetle", "short": "tbug", "dname": "Smol Beetle", "desc": "A smol, insolent bug.", "sellable": true, "sell_cost": 20, "buy_cost": null, "emoji": ""},
+
+  {"name": "chonky_beetle", "short": "lbug", "dname": "Chonky Beetle", "desc": "A chad and chonky beetle.", "sellable": true, "sell_cost": 60, "buy_cost": null, "emoji": ""},
+
+  {"name": "bear_hide", "short": "bhide", "dname": "Bear Hide", "desc": "Skin of a powerful and big bear.", "sellable": true, "sell_cost": 700, "buy_cost": null, "emoji": ""},
+
+  {"name": "deer_venison", "short": "dvenison", "dname": "Deer Venison", "desc": "Flesh of a fast and agile Deer.", "sellable": true, "sell_cost": 500, "buy_cost": null, "emoji": ""},
+
+  {"name": "rabbit_foot", "short": "rfoot", "dname": "Rabbit's Foot", "desc": "A poor rabbit's feet :<", "sellable": true, "sell_cost": 130, "buy_cost": null, "emoji": ""},
+
+  {"name": "anaconda", "short": "conda", "dname": "Anaconda", "desc": "Deadly serpent.", "sellable": true, "sell_cost": 900, "buy_cost": null, "emoji": ""},
+
+  {"name": "doge", "short": "doge", "dname": "Doge", "desc": "All hail Lord Doge.", "sellable": false, "sell_cost": null, "buy_cost": null, "emoji": ""},
+
+  {"name": "unicorn_horn", "short": "uhorn", "dname": "Unicorn Horn", "desc": "Horn of the magical creature from the heavens.", "sellable": false, "sell_cost": null, "buy_cost": null, "emoji": ""},
+
+  {"name": "dragon_scale", "short": "dscale", "dname": "Dragon Scale", "desc": "Fiery creature with unimaginable power (but you somehow stole it's scale <:lel:926461435444338758>)", "sellable": false, "sell_cost": null, "buy_cost": null, "emoji": ""},
+
+  {"name": "stingray_poison", "short": "spoison", "dname": "Stingray Poison", "desc": "Poison extracted from a stingray; can be lethal.", "sellable": false, "sell_cost": 1000, "buy_cost": null, "emoji": ""}
+
+]
+
+

@@ -1,0 +1,12 @@
+[
+  {"name": "builder", "pay": 10000},
+  {"name": "singer", "pay": 100000},
+  {"name": "worker", "pay": 5000},
+  {"name": "housekeeper", "pay": 30000},
+  {"name": "youtuber", "pay": 30000},
+  {"name": "rapper", "pay": 50000},
+  {"name": "actor", "pay": 100000},
+  {"name": "Owner Of Bots", "pay": 9999999999999999999999999999999999999999999999999999999999},
+  {"name": "teacher", "pay": 10000},
+  {"name": "santa", "pay": 40000}
+]

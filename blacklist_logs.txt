@@ -1,0 +1,87 @@
+Blacklist
+ID: 885000957426008114		 Username: Dummy#8390
+
+Whitelist
+ID: 885000957426008114		 Username: Dummy#8390
+
+Blacklist
+ID: 659426921385426958		 Username: Uruha Rushia#8774
+
+Whiteslist
+ID: 659426921385426958		 Username: Uruha Rushia#8774
+
+Whiteslist
+ID: 777050556535537724		 Username: 𝓭αℝ𝕜Ｐ𝓗𝓐ⓝ𝓉ᵒｍ#6027
+
+Blacklist
+ID: 659426921385426958		 Username: Uruha Rushia#8774
+
+Whiteslist
+ID: 659426921385426958		 Username: Uruha Rushia#8774
+
+Blacklist
+ID: 759782915856269372		 Username: Dayrank_YT#2883
+
+Blacklist
+ID: 875720478487105596		 Username: Deeler#6931
+
+Whiteslist
+ID: 875720478487105596		 Username: Deeler#6931
+
+Blacklist
+ID: 875720478487105596		 Username: Deeler#6931
+
+Whiteslist
+ID: 875720478487105596		 Username: Deeler#6931
+
+Blacklist
+ID: 825350793233301525		 Username: Duckboy#7813
+
+Whiteslist
+ID: 825350793233301525		 Username: Duckboy#7813
+
+Blacklist
+ID: 701390021898534912		 Username: NotJin#7219
+
+Blacklist
+ID: 835389778395660288		 Username: GenesisEdits#4676
+
+Whiteslist
+ID: 835389778395660288		 Username: GenesisEdits#4676
+
+Whiteslist
+ID: 750244159595610162		 Username: fighter_zipper#0594
+
+Blacklist
+ID: 768223327683608588		 Username: elliev#9020
+
+Whiteslist
+ID: 768223327683608588		 Username: elliev#9020
+
+Blacklist
+ID: 768223327683608588		 Username: elliev#9020
+
+Blacklist
+ID: 806202820045963344		 Username: SubToBleck#2604
+
+Whiteslist
+ID: 806202820045963344		 Username: SubToBleck#2604
+
+Blacklist
+ID: 774891074304213022		 Username: ErrorNik#0586
+
+Blacklist
+ID: 803197044994605077		 Username: Drocisd(level 69 gamer)#4693
+
+Blacklist
+ID: 803197044994605077		 Username: Drocisd(level 69 gamer)#4693
+
+Blacklist
+ID: 803197044994605077		 Username: Drocisd(level 69 gamer)#4693
+
+Blacklist
+ID: 885000957426008114		 Username: Dummy#8390
+
+Blacklist
+ID: 885000957426008114		 Username: Dummy#8390
+
