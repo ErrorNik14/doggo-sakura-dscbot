@@ -217,7 +217,7 @@ async def say(ctx, *, content):
       await ctx.message.delete()
       await ctx.send(content)
       date = str(datetime.datetime.utcnow())[0:10] + " UTC" + datetime.datetime.utcnow().strftime(r" %I:%M %p")
-      f = open("Text Files\\say_logs.txt", "a")
+      f = open("Text Files/say_logs.txt", "a")
       f.write(f"Time: {date}\nAuthor: {ctx.author}\tID: {ctx.author.id}\nContent: {content}\nServer: {ctx.guild.name}\n\n\n")
       f.close()
   else:
@@ -305,17 +305,17 @@ async def blacklist(ctx, member:nextcord.Member = None):
       embed = nextcord.Embed(title="<a:cross:925969103087341578> You didn't mention anyone.", color=ctx.author.color)
       await ctx.send(embed=embed)
     else:
-      a = open("Text Files\\blacklist.txt", 'r')
+      a = open("Text Files/blacklist.txt", 'r')
       cont = a.read()
       a.close()
       if str(member.id) in cont.split(" "):
         embed2 = nextcord.Embed(title="<a:cross:925969103087341578> User is already blacklisted.", color=ctx.author.color)
         await ctx.send(embed=embed2)
       else:
-        f = open("Text Files\\blacklist.txt", "a")
+        f = open("Text Files/blacklist.txt", "a")
         f.write(str(member.id) + " ")
         f.close()
-        r = open("Text Files\\blacklist_logs.txt", 'a')
+        r = open("Text Files/blacklist_logs.txt", 'a')
         r.write(f"Blacklist\nID: {member.id}\t\t Username: {str(member)}\n\n")
         r.close()
         blacklist_embed = nextcord.Embed(title="<a:tick:925969125367480340> User is now Blacklisted.", color=ctx.author.color)
@@ -331,7 +331,7 @@ async def whitelist(ctx, member:nextcord.Member = None):
       embed = nextcord.Embed(title="<a:cross:925969103087341578> You didn't mention anyone.", color=ctx.author.color)
       await ctx.send(embed=embed)
     else:
-      f = open("Text Files\\blacklist.txt", "r+")
+      f = open("Text Files/blacklist.txt", "r+")
       ID = str(f.read())
       f.close()
       whitelisted_user = str(member.id) + " "
@@ -342,11 +342,11 @@ async def whitelist(ctx, member:nextcord.Member = None):
         embed2 = nextcord.Embed(title=":question: The user you mentioned is not blacklisted.", color=ctx.author.color)
         await ctx.send(embed=embed2)
       else:
-        r = open("Text Files\\blacklist.txt", 'w')
+        r = open("Text Files/blacklist.txt", 'w')
         r.write(new_list)
         r.close()
         #await ctx.send("Ok, done updating the blacklist.")
-        a = open("Text Files\\blacklist_logs.txt", 'a')
+        a = open("Text Files/blacklist_logs.txt", 'a')
         a.write(f"Whiteslist\nID: {member.id}\t\t Username: {str(member)}\n\n")
         a.close()
         embed3 = nextcord.Embed(title="<a:tick:925969125367480340> User whitelisted.", color=ctx.author.color)
@@ -358,7 +358,7 @@ async def whitelist(ctx, member:nextcord.Member = None):
 @bot.check
 async def blacklist_check(ctx):
   if not ctx.author.bot:
-    f = open("Text Files\\blacklist.txt", "r")
+    f = open("Text Files/blacklist.txt", "r")
     f = f.read()
     id = f.split(" ")
     #for i in id:

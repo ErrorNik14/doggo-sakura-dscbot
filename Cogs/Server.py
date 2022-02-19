@@ -37,7 +37,7 @@ class Server(commands.Cog):
                 if not server_reg:
                   new_dict = {"id": str(id), "triggers": {string2: content}}
                   read.append(new_dict)
-                  r = open("Databases\\trigger_words.json", 'w')
+                  r = open("Databases/trigger_words.json", 'w')
                   json.dump(read, r)
                   r.close()
                   await ctx.send("Added trigger")
@@ -120,7 +120,7 @@ class Server(commands.Cog):
   @commands.command(aliases=["suggest", "sug"])
   @commands.cooldown(1, 600, commands.BucketType.user)
   async def suggestion(self, ctx):
-    read = json.load(open("Databases\\server_info.json", 'r'))
+    read = json.load(open("Databases/server_info.json", 'r'))
     id = str(ctx.guild.id)
     if read[id]["sug_channel"] is not None:
       await ctx.reply("Check your DMs.")
@@ -133,7 +133,7 @@ class Server(commands.Cog):
         channel = self.bot.get_channel(read[id]["sug_channel"])
         read[id]["sug_count"]+=1
         sugCount = read[id]["sug_count"]+1
-        json.dump(read, open("Databases\\server_info.json", 'w'))
+        json.dump(read, open("Databases/server_info.json", 'w'))
         embed = nextcord.Embed(title=f"Suggestion#{sugCount}", description=msg.content, color=ctx.author.color)
         embed.set_footer(text=f"Suggestion from {str(ctx.author)}")
         embed.set_author(name=str(ctx.author),icon_url=ctx.author.avatar.url)
