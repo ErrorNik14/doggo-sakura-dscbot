@@ -399,7 +399,7 @@ bot.load_extension("Cogs.Economy")
 bot.load_extension("Cogs.Fun")
 bot.load_extension("Cogs.Server")
 
-my_secret = os.environ['TOKEN_2']
+my_secret = os.environ['TOKEN']
 
 keep_alive()
 bot.run(str(my_secret))
