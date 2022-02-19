@@ -44,12 +44,12 @@ class Economy(commands.Cog):
 
   #commands
   async def cog_check(self, ctx):
-    f = open("economy.json", 'r')
+    f = open("Databases\economy.json", 'r')
     read = json.load(f)
     f.close()
     if str(ctx.author.id) not in read:
       read[str(ctx.author.id)] = {"username": str(ctx.author), "money": 0, "items": [], "job": None}
-      r = open("economy.json", 'w')
+      r = open("Databases\economy.json", 'w')
       json.dump(read, r, indent=1)
     return True
 
