@@ -2,36 +2,36 @@ import json
 import nextcord
 
 def economyInfo():
-  f = open("economy.json", 'r')
+  f = open("Databases\\economy.json", 'r')
   read = json.load(f)
   f.close()
   return read
 
 def writeEconomy(cont):
-  f = open("economy.json", 'w')
+  f = open("Databases\\economy.json", 'w')
   json.dump(cont, f)
   f.close()
 
 def itemInfo():
-  f = open("iteminfo.json", 'r')
+  f = open("Databases\\iteminfo.json", 'r')
   read = json.load(f)
   f.close()
   return read
 
 def jobInfo():
-  f = open("worklist.json", 'r')
+  f = open("Databases\\worklist.json", 'r')
   read = json.load(f)
   f.close()
   return read
 
 def serverInfo():
-  f = open("server_info.json", 'r')
+  f = open("Databases\\server_info.json", 'r')
   read = json.load(f)
   f.close()
   return read
 
 def writeServerInfo(cont):
-  f = open("server_info.json", 'w')
+  f = open("Databases\\server_info.json", 'w')
   json.dump(cont, f)
   f.close()
 
